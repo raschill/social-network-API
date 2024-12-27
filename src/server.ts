@@ -1,6 +1,6 @@
-import espress from 'express';
-// import db from './config/connection.js';
-// import router from './routes/index.js';
+import express from 'express';
+import db from './config/connection.js';
+import router from './routes/index.js';
 
 const PORT= 3001;
 const app= express();
