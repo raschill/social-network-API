@@ -1,5 +1,5 @@
 import {Request, Response} from 'express';
-import {User, Thought} from '../models/index';
+import {User, Thought} from '../models/index.js';
 
 export const getThoughts= async (_req: Request, res: Response): Promise<void> => {
     try {

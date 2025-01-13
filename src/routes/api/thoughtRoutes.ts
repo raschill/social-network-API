@@ -16,7 +16,7 @@ router.get('/:thoughtId', getOneThought);
 
 // POSTs
 router.post('/', createThought);
-router.post('/thoughtId/reactions', createReaction);
+router.post('/:thoughtId/reactions', createReaction);
 
 // PUTs
 router.put('/:thoughtId', updateThought);

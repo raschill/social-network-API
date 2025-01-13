@@ -1,10 +1,10 @@
 import mongoose from 'mongoose';
-import User from '../models/user';
-import Thought from '../models/thought';
+import User from '../models/user.js';
+import Thought from '../models/thought.js';
 
-const mongoURL= 'mongodb://127.0.0.1:27017/SocialNetworkAPI';
+const mongoURI= 'mongodb://127.0.0.1:27017/SocialNetworkAPI';
 
-mongoose.connect(mongoURL)
+mongoose.connect(mongoURI)
 .then(() => console.log('mongoDB has been connected'))
 .catch(err => console.log(err));
 
