@@ -49,6 +49,6 @@ userSchema
     return this.friends.length;
 })
 
-const User= model<iUser>('User', userSchema);
+const User= model('User', userSchema);
 
 export default User;
