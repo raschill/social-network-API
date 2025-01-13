@@ -6,8 +6,8 @@
 
 An API for a social network web application where users can share their thoughts, react to friends' thoughts, and create a friend list.
 
- ## Deployed Website
- [Watch the video here:](https://kanban-board1-wb3p.onrender.com/)
+ ## Link to Video
+ [Watch the video here:](https://youtu.be/vR515auEnJI)
 
  ## Table of Contents
 
@@ -32,7 +32,6 @@ Configure the mongodb URI
 
 Run it:
 - Type npm run seed
-- Type npm run build
 - Type npm run start
 
  ## License
